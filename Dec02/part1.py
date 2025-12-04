@@ -33,7 +33,7 @@ def get_invalid_ids(subnum)-> list[int]:
             invalid_ids.append(int(subnum))
             return invalid_ids
     #if its an odd number return invalid_ids as it wont be invalid
-    if len(subnum) % 2!= 0:
+    elif len(subnum) % 2!= 0:
         return []
     # if its an even number check if the 2 numbers resulting are equal 
     else: 
