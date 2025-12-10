@@ -1,4 +1,4 @@
-# Which ingredients are fresh?
+# Which ingredients are fresh? in all ranges
 from pydantic import BaseModel
 from typing import List, Dict, Tuple
 import numpy as np
